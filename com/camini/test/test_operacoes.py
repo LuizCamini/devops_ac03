@@ -1,11 +1,12 @@
+  
 def funcao(var):
-    return var + 6
+	return var + 5
 
-def test_1_positivo():
-    assert func(12) == 18
+def test1_positivo():
+	assert funcao(10) == 15
 
-def test_2_negativo():
-    assert func(-12) == -6
+def test2_negativo():
+	assert funcao(-10) == -5
 
-def test_3_zero():
-    assert func(0) == 6
+def test3_zero():
+	assert funcao(0) == 5
