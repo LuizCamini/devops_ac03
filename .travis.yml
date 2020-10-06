@@ -1,11 +1,7 @@
 language: python
 python:
-- 3.8.2
+- 3.8.5
 before_install:
 - pip3 install -r requirements.txt
 script:
-<<<<<<< HEAD
 - pytest com/camini/test/
-=======
-- pytest com/camini/test/
->>>>>>> a31b20eb082d33da477753fb563b3f3ecc057767
